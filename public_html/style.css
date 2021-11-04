@@ -31,38 +31,24 @@ body {
 
 .content {
 
-   
     color: white;
     width: 100%;
     height: auto;
     position: absolute;
     top:800px;
-    
-
 
 }
 .footer {
-    /*display: flex;*/
+    display: flex;
     align-items: center;
-    width: 105%;
-    height: 250px;
+    width: 100%;
+    height: 300px;
     color: white;
     background: #ccc;    
     position:absolute;
     margin-top: 600px;
- top: 100%;
+    top: 100%;
 }
-/*
-header-menu {
-    justify-content: flex-end;
-    height: 60px;
-  background: #1c87c9;
-  color: #fff;
-  background-image:url("C:/Users/Lenovo/Desktop/ImagesAssignment/header.jpg");
-  height: 500px;
-
-}*/
-
 /*.nav*/
 .header-full .headerImg {
     width: 100%;
@@ -106,7 +92,7 @@ header-menu {
     line-height: 100px;
     margin: 0;
     padding: 0;
-
+    
 }
 
 .navlinks li {
@@ -139,32 +125,24 @@ li {
     text-decoration: none;
     margin: 0;
     padding: 0;
-
-
 }
 
 
-/* Centered text */
 .centered {
     position: relative;
     top: 55%;
     left: 35%;
     font-family: 'Open Sans', sans-serif;
-   transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     line-height: 1.2;
     width: 70%;
-  margin: 0 auto;
-
-
+    margin: 0 auto;
 }
 
 .bigText {
 
-    /*  text-align: center*/
     font-size: 65px;
     text-align: center;
-
-
 }
 .smallHeaderText {
     font-size: 25px;
@@ -173,15 +151,13 @@ li {
     font-family: 'Raleway', sans-serif;
     margin-top: 20px;
     font-weight: lighter;
-   
-
 }
 
 .button 
 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    background-color: tomato;
+    background-color: rgb(232, 69, 70);
     height: 45px;
     width:200px;
     font-size: 12px;
@@ -189,49 +165,35 @@ li {
     transform: translate(-50%, -50%);
     margin-left: 50%;
     margin-top :100px;
-
 }
 
 h2 {
     margin: 0 0 8px;
 }
 .ul {
-
-
 }
-
-
-
-
-
 
 .quote {
     font-family: 'Cardo', serif;
     padding-top: 50px;
     padding-bottom: 50px;
     font-style: italic;
-
 }
-.divTable.divTableBody {
-    /* background-color: #FFFFFF;*/
+
+.divTable.divTableBody {   
     width: 65%;
     height: 600px;
-
     text-align: center;
     margin-top: 100px;
     margin-left: 17%;
-    /*align-content: center;*/
-
-    /* position: absolute;*/
 }
+
 .divTable.divTableBody .divTableCell {
     border: 0px solid #FFFFFF;
     /* padding: 3px 2px;*/
     width: 33%;
     padding: 50px;
-
 }
-
 
 .divTable.divTableBody .divTableCell .li 
 {
@@ -245,27 +207,22 @@ h2 {
 .divTable.divTableBody .divTableCell .li i{
     width:40px;
     text-align: left;
-
 }
 .divTable.divTableBody .divTableCell .li .title
 {
     font-weight: bold;  
 
-
 }
 .divTable.divTableBody .divTableCell .job
 {
-    color :tomato;
+    color :rgb(232, 69, 70);
     padding-top: 15px;
 
 }
 .divTable.divTableBody .divTableCell .li img
 {
-
     position: static;
     margin-bottom: 25px;
-
-
 }
 
 .divTable.divTableBody .divTableCell {
@@ -276,8 +233,6 @@ h2 {
     /* padding: 3px 2px;*/
     width: 33%;
     padding: 50px;
-
-
 }
 .divTable{ display: table; }
 .divTableRow { display: table-row; }
@@ -290,12 +245,8 @@ h2 {
     clear: both;
 }
 
-
 .overlay {  
-    /* background-color:rgba(255, 99, 71, 1);
-     text-align:center;
-     opacity:1;	  
-     width:100%;height:100%; */
+
     position: absolute;
     top: 0;
     bottom: 0;
@@ -309,38 +260,28 @@ h2 {
 
 }
 
-
-
-
 .container {
     position: relative;
     width:100%;
     height:100%;
-
 }
 .container:hover .overlay{
     opacity: 0.6;   
-
-
-
 }
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
     float: left;
-
     width: 24.99999%;
-    
-
     padding: 1px;
 }
-
 
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
+
 /* Style the images inside the grid */
 .column img {
 
@@ -349,7 +290,6 @@ h2 {
     height: 350px;
     object-fit: cover;
 
-
 }
 
 .column img:hover {
@@ -357,8 +297,8 @@ h2 {
 }
 
 .row {
-    
-    
+
+
 }
 /* Clear floats after the columns */
 .row:after {
@@ -381,8 +321,9 @@ h2 {
 }
 
 footer{
-    
+
     color: white;
     background-color: blue;
-    
+    position: static;
+
 }
